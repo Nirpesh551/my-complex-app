@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return jsonify({
-        "message": "Welcome to the Complex App!",
+        "message": "Welcome to the Updated Complex App!",
         "environment": os.getenv("ENV", "development")
     })
 
